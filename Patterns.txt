@@ -1,0 +1,1314 @@
+Plus Symbol
+package box3;
+
+public class Samosa {
+    public static void main(String[] args) {
+		   //England Flag
+    	int rn = 9;
+    	int cn = 9;
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(c==((cn+1)/2) ||  r==((rn+1)/2) ) {
+    				System.out.print("* ");
+    			}else {
+    				System.out.print("  ");
+    			}
+    		}
+    		System.out.println();
+    	}
+    	
+	}
+}
+
+
+        *         
+        *         
+        *         
+        *         
+* * * * * * * * * 
+        *         
+        *         
+        *         
+        *         
+
+
+---------------------------------------------
+England Flag
+
+package box3;
+
+public class Samosa {
+    public static void main(String[] args) {
+		   //England Flag
+    	int rn = 9;
+    	int cn = 13;
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(c==((cn+1)/2) ||  r==((rn+1)/2) ) {
+    				System.out.print("  ");
+    			}else {
+    				System.out.print("* ");
+    			}
+    		}
+    		System.out.println();
+    	}
+    	
+	}
+}
+
+
+* * * * * *   * * * * * * 
+* * * * * *   * * * * * * 
+* * * * * *   * * * * * * 
+* * * * * *   * * * * * * 
+                          
+* * * * * *   * * * * * * 
+* * * * * *   * * * * * * 
+* * * * * *   * * * * * * 
+* * * * * *   * * * * * * 
+
+
+
+
+---------------------------
+
+ Damaru Code
+
+package box4;
+
+public class HydrabadiBirayani {
+
+	public static void main(String[] args) {
+		int rn = 9;  //even num for damaru
+    	int cn = 9;  //even num for damaru
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(c==1|| c==cn|| (c==r  ) 
+    					|| c+r== (cn+1)  ) {
+    				System.out.print("* ");
+    			}else {
+    				System.out.print("  ");
+    			}
+    		}
+    		System.out.println();
+    	}
+
+	}
+
+}
+
+
+*                 * 
+* *             * * 
+*   *         *   * 
+*     *     *     *    
+*       * *       * 
+*       * *       * 
+*     *     *     * 
+*   *         *   * 
+* *             * * 
+*                 * 
+
+
+---------------------------------------------
+package box4;
+
+public class HydrabadiBirayani {
+
+	public static void main(String[] args) {
+		int rn = 9;  //even num for damaru
+    	int cn = 9;  //even num for damaru
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(c==1|| c==cn|| (c==r  ) 
+    					|| c+r== (cn+1)  ) {
+    				System.out.print("  ");
+    			}else {
+    				System.out.print("0 ");
+    			}
+    		}
+    		System.out.println();
+    	}
+
+	}
+
+}
+  0 0 0 0 0 0 0   
+    0 0 0 0 0     
+  0   0 0 0   0   
+  0 0   0   0 0   
+  0 0 0   0 0 0   
+  0 0   0   0 0   
+  0   0 0 0   0   
+    0 0 0 0 0     
+  0 0 0 0 0 0 0   
+------------------------------------------------
+
+
+
+
+@               @ 
+@ @           @ @ 
+@   @       @   @ 
+@     @   @     @ 
+@       @       @ 
+@     @   @     @ 
+@   @       @   @ 
+@ @           @ @ 
+@               @ 
+
+
+
+
+---------------------------------------
+
+package box4;
+
+public class HydrabadiBirayani {
+
+	public static void main(String[] args) {
+		int rn = 9;  //even num for damaru
+    	int cn = 9;  //even num for damaru
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(c==1|| c==cn|| (c==r && r<=(rn+1)/2 ) 
+    					|| c+r== (cn+1)  && c>=(cn+1)/2 ) {
+    				System.out.print("* ");
+    			}else {
+    				System.out.print("  ");
+    			}
+    		}
+    		System.out.println();
+    	}
+
+	}
+
+}
+
+*               * 
+* *           * * 
+*   *       *   * 
+*     *   *     * 
+*       *       * 
+*               * 
+*               * 
+*               * 
+*               * 
+
+
+
+-------------------------
+package box3;
+
+public class Samosa {
+    public static void main(String[] args) {
+		   //England Flag
+    	int rn = 9;
+    	int cn = 9;
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(r==(rn+1)/2 && c==(cn+1)/2) {
+    				System.out.print("@ ");
+    			}else if(c==((cn+1)/2) ||  r==((rn+1)/2) ) {
+    				System.out.print("* ");
+    			}else {
+    				System.out.print("  ");
+    			}
+    		}
+    		System.out.println();
+    	}
+    	
+	}
+}
+
+
+        *         
+        *         
+        *         
+        *         
+* * * * @ * * * * 
+        *         
+        *         
+        *         
+        *         
+
+---------------------
+package box3;
+
+public class Samosa {
+    public static void main(String[] args) {
+		   //England Flag
+    	int rn = 9;
+    	int cn = 9;
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(r==(rn+1)/2 && c==(cn+1)/2) {
+    				System.out.print("0 ");
+    			}else if(c==((cn+1)/2) ||  r==((rn+1)/2) ) {
+    				System.out.print("  ");
+    			}else {
+    				System.out.print("$ ");
+    			}
+    			try {
+					Thread.sleep(100);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+    		}
+    		System.out.println();
+    	}
+    	
+	}
+}
+
+
+$ $ $ $   $ $ $ $ 
+$ $ $ $   $ $ $ $ 
+$ $ $ $   $ $ $ $ 
+$ $ $ $   $ $ $ $ 
+        0         
+$ $ $ $   $ $ $ $ 
+$ $ $ $   $ $ $ $ 
+$ $ $ $   $ $ $ $ 
+$ $ $ $   $ $ $ $ 
+
+------------------------------
+package box3;
+
+public class Samosa {
+    public static void main(String[] args) {
+		   //England Flag
+    	int rn = 9;
+    	int cn = 9;
+    	
+    	for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    			if(r==c || c+r==(cn+1)) {
+    				System.out.print("0 ");
+    			}else if(c==((cn+1)/2) 
+    					||  r==((rn+1)/2) ) {
+    				System.out.print("  ");
+    			}else {
+    				System.out.print("* ");
+    			}
+    			
+    		}
+    		System.out.println();
+    	}
+    	
+	}
+}
+
+
+0 * * *   * * * 0 
+* 0 * *   * * 0 * 
+* * 0 *   * 0 * * 
+* * * 0   0 * * * 
+        0         
+* * * 0   0 * * * 
+* * 0 *   * 0 * * 
+* 0 * *   * * 0 * 
+0 * * *   * * * 0 
+
+
+
+------------------------------
+
+package box4;
+
+public class Tarzan {
+   public static void main(String[] args) {
+
+	   		int rn = 9;  
+	       	int cn = 9;  
+	       	
+	       	for(int r=1; r<=rn; r++) {
+	       		for(int c=1; c<=cn; c++) {
+	       			
+	       	    if(c==1 || (c==cn && r>=(rn+1)/2)
+	       	    		|| (r==1 && c<=(cn+1)/2) 
+	       	    		|| r==rn 
+	       	    		|| c==(cn+1)/2  
+	       	    		|| r==(rn+1)/2 ) {
+	       			System.out.print("* ");
+	       		}else {
+	       			System.out.print("  ");
+	       		}
+	       	}
+	       		System.out.println();
+
+	   	}
+
+	   
+
+}
+}
+
+* * * * *         
+*       *         
+*       *         
+*       *         
+* * * * * * * * * 
+*       *       * 
+*       *       * 
+*       *       * 
+* * * * * * * * * 
+
+----------------------------------------------
+Windows Symbol
+
+package box4;
+
+public class Tarzan {
+   public static void main(String[] args) {
+
+	   		int rn = 9;  
+	       	int cn = 9;  
+	       	
+	       	for(int r=1; r<=rn; r++) {
+	       		for(int c=1; c<=cn; c++) {
+	       			
+	       	    if(c==1 || (c==cn && r>=(rn+1)/2)
+	       	    		|| (r==1 && c<=(cn+1)/2) 
+	       	    		|| r==rn 
+	       	    		|| c==(cn+1)/2  
+	       	    		|| r==(rn+1)/2 ) {
+	       			System.out.print("  ");
+	       		}else {
+	       			System.out.print("* ");
+	       		}
+	       	}
+	       		System.out.println();
+
+	   	}
+
+	   
+
+}
+}
+
+          * * * * 
+  * * *   * * * * 
+  * * *   * * * * 
+  * * *   * * * * 
+                  
+  * * *   * * *   
+  * * *   * * *   
+  * * *   * * *   
+                  
+
+---------------------------------------------
+
+package box8;
+
+public class Pyramid {
+    public static void main(String[] args) {
+		int n=8;
+		
+		for(int r=n; r>=2; r--) {
+    		//spaces
+    		for(int k=1; k<=(n-r); k++) {
+    			System.out.print("  ");
+    		}
+    		
+    		//stars
+    		for(int s=1; s<=(2*r)-1; ++s) {	  
+    				System.out.print("0 ");
+    		}
+    		
+    		System.out.println();
+    	}
+		
+		//--------------------------------
+		
+    	for(int r=1; r<=n; r++) {
+    		//spaces
+    		for(int k=1; k<=(n-r); k++) {
+    			System.out.print("  ");
+    		}
+    		
+    		//stars
+    		for(int s=1; s<=(2*r)-1; ++s) {
+    			if(s==1 || s== (2*r)-1 
+    					|| r==n
+    					|| s==(2*r)/2
+    					||r==(n-1)) {    
+    				System.out.print("* ");
+    			}else {
+    				System.out.print("  ");
+    			}
+    		}
+    		
+    		System.out.println();
+    	}
+	}
+}
+
+
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 
+          0 0 0 0 0 
+            0 0 0 
+              * 
+            * * * 
+          *   *   * 
+        *     *     * 
+      *       *       * 
+    *         *         * 
+  * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * 
+
+
+
+
+
+
+
+
+------------------------------------
+
+
+package box9;
+
+public class Yodha {
+   public static void main(String[] args) {
+	   int rn = 9;
+	   int cn = 9;
+	   
+		for(int r=1; r<=rn; r++) {
+    		for(int c=1; c<=cn; c++) {
+    		if( (r==1 && c<(cn/2)+1 )
+    					||  (r==rn && c>(cn/2)+1 )
+    			        ||( c==1 && r<(rn/2)+1)
+    			        ||( c==cn && r>(rn/2)+1)
+    					|| r==(rn/2)+1
+    					|| c==(cn/2)+1) {
+    				System.out.print("* ");
+    			}else {
+    				System.out.print("  ");
+    			}
+    		}
+    		System.out.println();
+    	}
+}
+}
+
+
+* * * * *         
+*       *         
+*       *         
+*       *         
+* * * * * * * * * 
+        *       * 
+        *       * 
+        *       * 
+        * * * * * 
+--------------------------------------------
+
+package box4;
+
+public class BumbleBee {
+  public static void main(String[] args) {
+	
+	  int n = 9;
+		//first halp  
+		  for(int r =1; r<=n ; r++) {  
+			  //spaces
+			  for(int s=1; s<=(n-r); s++) {
+				  System.out.print("  ");
+			  }		  
+			  //for stars
+			  for(int k=1; k<=(2*r)-1 ; k++) {
+				 if(k==1 || k== (2*r)-1 
+						 || r== (n/2)+1
+						 ) {
+					 System.out.print("* ");
+                  }	else {
+                	  System.out.print("  ");
+                  }
+				 }
+			  System.out.println();		  
+		  }
+}
+}
+                * 
+              *   * 
+            *       * 
+          *           * 
+        * * * * * * * * * 
+      *                   * 
+    *                       * 
+  *                           * 
+*                               * 
+-------------------------------------------------------
+package box4;
+
+public class BumbleBee {
+  public static void main(String[] args) {
+	
+	  int n = 9;
+		//first halp  
+		  for(int r =1; r<=n ; r++) {  
+			  //spaces
+			  for(int s=1; s<=(n-r); s++) {
+				  System.out.print("  ");
+			  }		  
+			  //for stars
+			  for(int k=1; k<=(2*r)-1 ; k++) {
+				 if(k==1 || k== (2*r)-1 || r==n) {
+					 System.out.print("* ");
+                  }	else {
+                	  System.out.print("  ");
+                  }
+				 }
+			  System.out.println();		  
+		  }
+}
+}
+
+                * 
+              *   * 
+            *       * 
+          *           * 
+        *               * 
+      *                   * 
+    *                       * 
+  *                           * 
+* * * * * * * * * * * * * * * * * 
+---------------------------------------------
+package box5;
+
+import java.util.Scanner;
+
+public class Frainkie {
+   public static void main(String[] args) {
+	
+	   Scanner sc = new Scanner(System.in);
+	   System.out.println("Enter total rows");
+	   int rn = sc.nextInt();
+	   System.out.println("Enter total columns");
+	   int cn = sc.nextInt();
+	   
+	   for(int r = 1; r<=rn; r++) {
+		   for(int c=1; c<=cn; c++) {
+			  
+			   if(r==rn|| c==cn
+					   || r+c==cn+1 
+					   || cn <(r+c)) {
+				   System.out.print("* ");
+			   }else {
+				   System.out.print("  ");
+			   }		  
+		   }
+		   System.out.println();
+	   }
+}
+}
+
+Enter total rows
+11
+Enter total columns
+11
+                    * 
+                  * * 
+                * * * 
+              * * * * 
+            * * * * * 
+          * * * * * * 
+        * * * * * * * 
+      * * * * * * * * 
+    * * * * * * * * * 
+  * * * * * * * * * * 
+* * * * * * * * * * * 
+----------------------------------------------
+package box5;
+
+import java.util.Scanner;
+
+public class Frainkie {
+   public static void main(String[] args) {
+	
+	   Scanner sc = new Scanner(System.in);
+	   System.out.println("Enter total rows");
+	   int rn = sc.nextInt();
+	   System.out.println("Enter total columns");
+	   int cn = sc.nextInt();
+	   
+	   for(int r = rn; r>=1; r--) {
+		   for(int c=1; c<=cn; c++) {
+			  
+			   if(r==rn|| c==cn
+					   || r+c==cn+1 
+					   || cn <(r+c)) {
+				   System.out.print("* ");
+			   }else {
+				   System.out.print("  ");
+			   }		  
+		   }
+		   System.out.println();
+	   }
+}
+}
+
+Enter total rows
+11
+Enter total columns
+11
+* * * * * * * * * * * 
+  * * * * * * * * * * 
+    * * * * * * * * * 
+      * * * * * * * * 
+        * * * * * * * 
+          * * * * * * 
+            * * * * * 
+              * * * * 
+                * * * 
+                  * * 
+                    * 
+---------------------------------
+package box5;
+
+import java.util.Scanner;
+
+public class Samandar {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter total rows");
+		int rn = sc.nextInt();
+		System.out.println("Enter total columns");
+		int cn = sc.nextInt();
+
+		for (int r = 1; r <= rn; r++) {
+			for (int c = 1; c <= cn; c++) {
+
+				if (c == 1 || c == cn 
+						|| r==c  && c>=(cn+1)/2
+						|| r+c==(rn + 1)  && c<=(cn+1)/2) {
+					System.out.print("* ");
+				}else {
+					System.out.print("  ");
+				}
+
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+Enter total rows
+11
+Enter total columns
+11
+*                   * 
+*                   * 
+*                   * 
+*                   * 
+*                   * 
+*         *         * 
+*       *   *       * 
+*     *       *     * 
+*   *           *   * 
+* *               * * 
+*                   * 
+---------------------------------------
+package box7;
+
+import java.util.Scanner;
+
+public class SpiderMan {
+   public static void main(String[] args) {
+	
+	   Scanner sc = new Scanner(System.in);
+	   System.out.println("Enter Total Rows..");
+	   int rn = sc.nextInt();
+	   System.out.println("Enter Total Columns..");
+	   int cn = sc.nextInt();
+	   
+	   for(int r=1; r<=rn; r++) {
+		   for(int c=1; c<=cn ; c++) {
+			   
+			   if(c==1 || c==cn|| c==r || (c+r)==rn+1
+					   || c== (cn/2)+1 )  {
+				   System.out.print("* ");
+			   }else {
+				   System.out.print("  ");
+			   }
+		   }
+		   System.out.println();
+	   }
+}
+}
+------------
+Enter Total Rows..
+15
+Enter Total Columns..
+15
+*             *             * 
+* *           *           * * 
+*   *         *         *   * 
+*     *       *       *     * 
+*       *     *     *       * 
+*         *   *   *         * 
+*           * * *           * 
+*             *             * 
+*           * * *           * 
+*         *   *   *         * 
+*       *     *     *       * 
+*     *       *       *     * 
+*   *         *         *   * 
+* *           *           * * 
+*             *             * 
+
+----------------------------------------
+package box7;
+
+import java.util.Scanner;
+
+public class Vishal {
+   public static void main(String[] args) {
+	
+	   Scanner sc = new Scanner(System.in);
+	   System.out.println("Enter Total Rows..");
+	   int rn = sc.nextInt();
+	   System.out.println("Enter Total Columns..");
+	   int cn = sc.nextInt();
+	   
+	   for(int r=1; r<=rn; r++) {
+		   for(int c=1; c<=cn ; c++) {
+			   
+			          if( (c==1 && r>=(rn/2)+1) 
+					   || r== rn && c>=(cn/2)+1
+					   || c==(cn/2)+1 
+					   || r== (rn/2)+1
+					   || ( r==1 && c<=(cn/2)+1 )
+					   || c==cn && r<=(rn/2)+1 ) {
+				        System.out.print("* ");
+			   }else {
+				   System.out.print("  ");
+			   }
+		   }
+		   System.out.println();
+	   }
+}
+}
+---------------
+Enter Total Rows..
+13
+Enter Total Columns..
+13
+* * * * * * *           * 
+            *           * 
+            *           * 
+            *           * 
+            *           * 
+            *           * 
+* * * * * * * * * * * * * 
+*           *             
+*           *             
+*           *             
+*           *             
+*           *             
+*           * * * * * * * 
+
+-------------------------------------
+package box7;
+
+public class Ashish {
+		
+	static void diamond(int n) {
+		//1st half
+		for(int r=1; r<=n; r++) {
+      		//spaces 
+    		for(int s =1; s<=(n-r); s++) {
+    			System.out.print("  ");
+    		}
+    		
+    		//stars
+    		for(int k=1; k<=(2*r)-1 ; k++) {
+    			System.out.print("* ");
+    		}
+    		
+    		System.out.println();
+    	}
+		//-----------------
+		//2nd half
+		for(int r=n-1; r>=1; r--) {
+      		//spaces 
+    		for(int s =1; s<=(n-r); s++) {
+    			System.out.print("  ");
+    		}
+    		
+    		//stars
+    		for(int k=1; k<=(2*r)-1 ; k++) {
+    			System.out.print("o ");
+    		}
+    		
+    		System.out.println();
+    	}	
+	}
+
+   public static void main(String[] args) {
+	  System.out.println("P start");
+	  diamond(4);
+	  diamond(7);
+	  System.out.println("P End");
+   }
+}
+
+---------
+P start
+      * 
+    * * * 
+  * * * * * 
+* * * * * * * 
+  o o o o o 
+    o o o 
+      o 
+            * 
+          * * * 
+        * * * * * 
+      * * * * * * * 
+    * * * * * * * * * 
+  * * * * * * * * * * * 
+* * * * * * * * * * * * * 
+  o o o o o o o o o o o 
+    o o o o o o o o o 
+      o o o o o o o 
+        o o o o o 
+          o o o 
+            o 
+P End
+--------------------------
+https://shrib.com/#shriPattern11
+--------------------
+package box9;
+
+import java.util.Scanner;
+
+public class Nobita {
+   public static void main(String[] args) {
+	
+	   Scanner sc = new Scanner(System.in);
+	   System.out.println("Enter total rows(odd)");
+	   int rn= sc.nextInt();
+	   System.out.println("Enter total columns(odd)");
+	   int cn= sc.nextInt();
+	   
+	   for(int r=1; r<=rn; r++) 
+	   {
+		   for(int c=1; c<=cn; c++)
+		   {
+			
+			    if(    r==1  && c>=(cn/2)+1
+				   || c==1  && r>=(rn/2)+1
+				   || r==rn && c<=(cn/2)+1
+				   || c==cn  && r<=(rn/2)+1
+		           || c==(cn/2)+1
+		           || r==(rn/2)+1 
+		           || r+c==rn+1
+		           ||r==c) {
+				   System.out.print("* ");
+			   }else  {
+				   System.out.print("  ");
+			   }
+		   }
+		   System.out.println();
+	   }
+	   
+	   
+}
+}
+Enter total rows(odd)
+15
+Enter total columns(odd)
+15
+*             * * * * * * * * 
+  *           *           * * 
+    *         *         *   * 
+      *       *       *     * 
+        *     *     *       * 
+          *   *   *         * 
+            * * *           * 
+* * * * * * * * * * * * * * * 
+*           * * *             
+*         *   *   *           
+*       *     *     *         
+*     *       *       *       
+*   *         *         *     
+* *           *           *   
+* * * * * * * *             * 
+
+------------------------------------
+package box8;
+
+import java.util.Scanner;
+
+public class Swastik {
+	public static void main(String[] args) {
+		Scanner sc	 = new Scanner(System.in);
+		System.out.println("Enter total rows(odd)");
+		int rn =sc.nextInt();
+		System.out.println("Enter total Columns(odd)");
+		int cn =sc.nextInt();
+		
+			for(int r=1 ; r<=rn; r++) {
+				for(int c=1; c<=cn; c++) {
+					
+					if( r==(rn/2)+1  && c==(cn/2)+1) {
+					 System.out.print("@ ");	
+					}
+				else if(  r==1 && c>=(cn/2)+1    
+					   || r==rn && c<=(cn/2)+1
+					   || c==cn && r>=(rn/2)+1
+					   || c==1  && r<=(rn/2)+1
+					   || r==(rn/2)+1 
+					   || c==(cn/2)+1
+					   || r==c
+					   || r+c==rn+1) {	
+						System.out.print("* ");
+					}else {
+						System.out.print("  ");
+					}
+				}
+				System.out.println();		
+			}
+		}
+}
+Enter total rows(odd)
+15
+Enter total Columns(odd)
+15
+*             * * * * * * * * 
+* *           *           *   
+*   *         *         *     
+*     *       *       *       
+*       *     *     *         
+*         *   *   *           
+*           * * *             
+* * * * * * * @ * * * * * * * 
+            * * *           * 
+          *   *   *         * 
+        *     *     *       * 
+      *       *       *     * 
+    *         *         *   * 
+  *           *           * * 
+* * * * * * * *             * 
+----------------------------------
+package box9;
+
+public class Purva {
+	
+	static void diamond(int n) {
+		//first half
+		 for(int r=12; r<=n; r++)
+		  {
+			  //spaces
+			  for(int k=1; k<=(n-r); k++)
+			  {
+				  System.out.print("  ");
+			  }
+			    
+			  //stars
+			  for(int s=1; s<=(r*2)-1; s++) 
+			  {
+				 System.out.print("* "); 
+			  }
+			  
+			  System.out.println();
+		  }
+		 
+		 //2nd half
+		 for(int r=n-1; r>=1; r--)
+		  {
+			  //spaces
+			  for(int k=1; k<=(n-r); k++)
+			  {
+				  System.out.print("  ");
+			  }
+			    
+			  //stars
+			  for(int s=1; s<=(r*2)-1; s++) 
+			  {
+				 System.out.print("* "); 
+			  }
+			  
+			  System.out.println();
+		  }
+	}
+	
+  public static void main(String[] args) {
+	System.out.println();
+	System.out.println();
+	System.out.println();
+	 diamond(15);
+}
+}
+-------------------------
+
+
+
+      * * * * * * * * * * * * * * * * * * * * * * * 
+    * * * * * * * * * * * * * * * * * * * * * * * * * 
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+    * * * * * * * * * * * * * * * * * * * * * * * * * 
+      * * * * * * * * * * * * * * * * * * * * * * * 
+        * * * * * * * * * * * * * * * * * * * * * 
+          * * * * * * * * * * * * * * * * * * * 
+            * * * * * * * * * * * * * * * * * 
+              * * * * * * * * * * * * * * * 
+                * * * * * * * * * * * * * 
+                  * * * * * * * * * * * 
+                    * * * * * * * * * 
+                      * * * * * * * 
+                        * * * * * 
+                          * * * 
+                            * 
+
+----------------------------------------
+package box9;
+
+public class Purva {
+	
+	static void diamond(int n) {
+		//first half
+		 for(int r=12; r<=n; r++)
+		  {
+			  //spaces
+			  for(int k=1; k<=(n-r); k++)
+			  {
+				  System.out.print("  ");
+			  }
+			    
+			  //stars
+			  for(int s=1; s<=(r*2)-1; s++) 
+			  {
+				if(r==12|| s==1 ||s==r ||s==(2*r)-1) {
+					System.out.print("* ");
+				}else {
+					System.out.print("  ");
+				}
+			  }
+			  
+			  System.out.println();
+		  }
+		 
+		 //2nd half
+		 for(int r=n-1; r>=1; r--)
+		  {
+			  //spaces
+			  for(int k=1; k<=(n-r); k++)
+			  {
+				  System.out.print("  ");
+			  }
+			    
+			  //stars
+			  for(int s=1; s<=(r*2)-1; s++) 
+			  {
+				 if(s==1|| s==(2*r)-1 ||r==s) {
+					 System.out.print("* ");
+				 }else {
+					 System.out.print("  ");
+				 }
+			  }
+			  
+			  System.out.println();
+		  }
+	}
+	
+  public static void main(String[] args) {
+	System.out.println();
+	System.out.println();
+	System.out.println();
+	System.out.println();
+	 diamond(15);
+	 
+}
+}
+---------------------------------
+
+
+
+
+      * * * * * * * * * * * * * * * * * * * * * * * 
+    *                       *                       * 
+  *                         *                         * 
+*                           *                           * 
+  *                         *                         * 
+    *                       *                       * 
+      *                     *                     * 
+        *                   *                   * 
+          *                 *                 * 
+            *               *               * 
+              *             *             * 
+                *           *           * 
+                  *         *         * 
+                    *       *       * 
+                      *     *     * 
+                        *   *   * 
+                          * * * 
+                            * 
+---------------------------------------------------------
+package box9;
+
+public class Purva {
+	
+	static void diamond(int n) {
+		//first half
+		 for(int r=12; r<=n; r++)
+		  {
+			  //spaces
+			  for(int k=1; k<=(n-r); k++)
+			  {
+				  System.out.print("  ");
+			  }
+			    
+			  //stars
+			  for(int s=1; s<=(r*2)-1; s++) 
+			  {
+				if(r==12|| s==1 ||s==(2*r)-1) {
+					System.out.print("* ");
+				}else {
+					System.out.print("O ");
+				}
+			  }
+			  
+			  System.out.println();
+		  }
+		 
+		 //2nd half
+		 for(int r=n-1; r>=1; r--)
+		  {
+			  //spaces
+			  for(int k=1; k<=(n-r); k++)
+			  {
+				  System.out.print("  ");
+			  }
+			    
+			  //stars
+			  for(int s=1; s<=(r*2)-1; s++) 
+			  {
+				 if(s==1|| s==(2*r)-1) {
+					 System.out.print("* ");
+				 }else {
+					 System.out.print("O ");
+				 }
+			  }
+			  
+			  System.out.println();
+		  }
+	}
+	
+  public static void main(String[] args) {
+	System.out.println();
+	System.out.println();
+	System.out.println();
+	System.out.println();
+	 diamond(15);
+	 
+}
+}
+---------------------------------------
+
+
+
+
+      * * * * * * * * * * * * * * * * * * * * * * * 
+    * O O O O O O O O O O O O O O O O O O O O O O O * 
+  * O O O O O O O O O O O O O O O O O O O O O O O O O * 
+* O O O O O O O O O O O O O O O O O O O O O O O O O O O * 
+  * O O O O O O O O O O O O O O O O O O O O O O O O O * 
+    * O O O O O O O O O O O O O O O O O O O O O O O * 
+      * O O O O O O O O O O O O O O O O O O O O O * 
+        * O O O O O O O O O O O O O O O O O O O * 
+          * O O O O O O O O O O O O O O O O O * 
+            * O O O O O O O O O O O O O O O * 
+              * O O O O O O O O O O O O O * 
+                * O O O O O O O O O O O * 
+                  * O O O O O O O O O * 
+                    * O O O O O O O * 
+                      * O O O O O * 
+                        * O O O * 
+                          * O * 
+                            * 
+-------------------------------------------------------------
+
+
+package box4;
+
+public class Menka {
+  public static void main(String[] args) {
+	
+	  int rn = 15;
+	  int cn = 15;
+	  
+	  for(int r=1; r<=rn; r++ )
+	  {
+		  for(int c=1; c<=cn ; c++)
+		  {
+			 if(r== (rn/2)+1 && c==(cn/2)+1) {
+				 System.out.print("@ ");
+			 }
+			 else if( c==1 ||c==cn || r==c || (r+c)==cn+1) {
+				System.out.print("  ");
+			}else {
+				System.out.print("* ");
+			}
+			 
+		  }
+		System.out.println();  
+	  }
+}
+}
+
+  * * * * * * * * * * * * *   
+    * * * * * * * * * * *     
+  *   * * * * * * * * *   *   
+  * *   * * * * * * *   * *   
+  * * *   * * * * *   * * *   
+  * * * *   * * *   * * * *   
+  * * * * *   *   * * * * *   
+  * * * * * * @ * * * * * *   
+  * * * * *   *   * * * * *   
+  * * * *   * * *   * * * *   
+  * * *   * * * * *   * * *   
+  * *   * * * * * * *   * *   
+  *   * * * * * * * * *   *   
+    * * * * * * * * * * *     
+  * * * * * * * * * * * * *   
+
+
+
+
+
+
+
+
+
+------------------------------------------------
+https://shrib.com/#shri420
+
+
+
+
+
+
+
+
+
